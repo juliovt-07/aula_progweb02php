@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Formulário de Cadastro de Pessoa</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="inc/estilos.css" >
+    <script src="inc/script.js"></script>
+</head>
+
+<body>
+    <h1>Cadastro de Pessoa</h1>
+    <a href="listapessoa.php">Listar Pessoas</a>
+    <hr/>
+
+
+    <form method="POST" onsubmit="return validaform()" action="cadpessoa.php">
+        <label>Nome do Cliente:</label>
+        <input type="text" class="estilomkr" name="nome" id="nome" value="" />
+        
+        <label>CPF:</label>
+        <input type="number"  class="estilomkr" name="cpf" id="cpf" value="" />
+
+        <label>Idade</label>
+        <input type="number" class="estilomkr" name="idade" id="idade" value="" />
+
+        <button type="submit">Salvar</button>
+
+    </form>
+
+
+</body>
+
+</html>
