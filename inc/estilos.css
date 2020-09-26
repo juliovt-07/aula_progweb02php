@@ -1,0 +1,39 @@
+body {
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    border: solid 2px lightslategray;
+}
+
+input {
+    font-size: 18px;
+}
+
+input[type=text]{
+    background-color: lime; 
+}
+
+input[type=number] {
+    background-color: lime;
+}
+
+button {
+    font-size: 20px;
+    background-color: cyan;
+    border: solid 2px darkcyan;
+}
+
+.estilomkr {
+    border: solid 2px black ;
+}
+
+.tabeladados {
+    border: solid 1px cadetblue;
+    width: 100%;
+}
